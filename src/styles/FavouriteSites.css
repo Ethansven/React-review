@@ -1,0 +1,13 @@
+/* FavouriteSites{ */
+
+.FavouriteSites a,:visited{
+    color: green;
+}
+.FavouriteSites a:hover{
+    color: red;
+}
+.FavouriteSites ul{
+    list-style-type: none;
+    padding: 0%;
+    margin-bottom: 20px;
+}

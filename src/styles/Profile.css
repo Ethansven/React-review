@@ -1,0 +1,13 @@
+.Profile{
+     width: 40%;
+    margin: 20px;
+    padding: 20px;
+   
+}
+.Profile:hover {
+    border: solid red ;
+    
+    transition: 1s ;
+}.Profile:hover h2{
+    color: red;
+}
