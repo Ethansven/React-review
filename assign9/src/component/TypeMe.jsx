@@ -1,0 +1,33 @@
+import { useState } from "react";
+
+
+
+
+function TypeMe() {
+    const [getter,setter] = useState(false);
+    function handleEvent(value) {
+        setter(value) 
+        
+    }
+
+    function changeColor(value) {
+        if(value==true) {
+            return "red"
+        }
+        else {
+            return "white"
+        }
+    }
+
+    return (
+        <div>
+            <input 
+            onFocus = {() => handleEvent(false)} 
+            onBlur = {() => handleEvent(true)}>
+            </input>
+            <p style={{color: changeColor(getter)}}>Please type in here!</p>
+        </div>
+    )
+}
+
+export default TypeMe;
