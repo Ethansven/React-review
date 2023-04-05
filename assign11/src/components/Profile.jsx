@@ -3,10 +3,10 @@ import App from "../App";
 import { useParams } from "react-router-dom";
 
 const Profile = () => {
-    const { studentId } = useParams();
+  const { studentId } = useParams();
   return (
     <div>
-      <h1 >This Student ID of users is {studentId}</h1>
+      <h1>This Student ID of users is {studentId}</h1>
     </div>
   );
 };
